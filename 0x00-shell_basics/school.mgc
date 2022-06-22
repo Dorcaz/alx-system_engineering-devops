@@ -1,2 +1,3 @@
 #!/bin/bash
-magic 0 string 'school'
+magic 0 search <school> school=MIMETYPE
+
