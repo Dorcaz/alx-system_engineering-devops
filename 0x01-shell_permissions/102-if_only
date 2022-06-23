@@ -1,2 +1,2 @@
 #!/bin/bash
-chuser -R --olduser guillaume --newuser betty
+chuser -R --olduser betty --newuser guillaume
