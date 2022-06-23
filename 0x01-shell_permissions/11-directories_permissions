@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R u=rwx,g=rwx,o+x /glade/u/home/username/0x01-shell_permissions
+find ../ 0x01-shell_permissions -type d -exec chmod +x {} \;
