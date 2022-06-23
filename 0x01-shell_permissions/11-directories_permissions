@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R 777 ../0x01-shell_permissions
+chmod -R u=rwx,g=rwx,o+x /glade/u/home/username/0x01-shell_permissions
