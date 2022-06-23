@@ -1,3 +1,2 @@
 #!/bin/bash
-magic 0 search <school> school=MIMETYPE
-
+0 string SCHOOL School data!:mime School
