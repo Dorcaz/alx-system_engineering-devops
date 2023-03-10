@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+#Bash script that displays numbers from 1 to 20 and:
+
+counter=20
+
+while [[ $counter -lt 20]]
+do
+	echo "$counter"
+	case $counter in 
+	"5") echo "bad luck from China";;
+	"9") bad luck from Japan;;
+	"17") bad luck from Italy;;
+	esac
+
+	(( counter++ ))
+done
