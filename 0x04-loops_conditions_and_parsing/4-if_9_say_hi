@@ -8,9 +8,10 @@ do
 	if [[ $counter -eq 9 ]]	
 	then		
 		echo "Hi"
-	else
-		echo "Best School"
 	fi
+	
+	echo "Best School"
+	
 	(( counter++ ))
 done
 
