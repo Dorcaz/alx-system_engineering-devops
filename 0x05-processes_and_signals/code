@@ -1,0 +1,6 @@
+#!/bin/bash
+chmod a+x *
+git add .
+git commit -m 'do this'
+git push origin HEAD:main
+
