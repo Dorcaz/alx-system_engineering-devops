@@ -9,8 +9,8 @@
 
 terminate()
 {
-	rm /var/run/myscript.pid
-	exit
+  rm /var/run/myscript.pid
+  exit
 }
 
 echo '$$' > /var/run/myscript.pid
@@ -18,8 +18,7 @@ while true
 do
  echo 'To infinity and beyond'
  sleep 2
+ trap 'echo "I hate the kill command" && terminate' SIGTERM
+ trap 'echo "Y U no love me?!"' SIGINT
+ trap 'terminate' SIGQUIT
 done
-
-trap 'echo "I hate the kill command" && terminate' SIGTERM
-trap 'echo "Y U no love me?!"' SIGINT
-trap 'terminate' SIGQUIT
